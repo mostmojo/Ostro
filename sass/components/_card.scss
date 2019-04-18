@@ -1,5 +1,5 @@
 .card {
-  //Functionality
+  // Functionality
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -42,7 +42,7 @@
     transform: rotateY(0deg);
   }
 
-  //Front side styling
+  // Front side styling
   &__picture {
     background-size: cover;
     height: 23rem;
@@ -113,4 +113,5 @@
       }
     }
   }
+  // Back side styling
 }
