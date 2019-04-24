@@ -453,6 +453,9 @@ body {
   width: 90%;
   display: block;
   transition: all 0.3s; }
+  @media (max-width: 56.25em) {
+    .form__input {
+      width: 100%; } }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
@@ -478,6 +481,10 @@ body {
 .form__radio-group {
   width: 49%;
   display: inline-block; }
+  @media (max-width: 56.25em) {
+    .form__radio-group {
+      width: 100%;
+      margin-bottom: 2rem; } }
 
 .form__radio-input {
   display: none; }
@@ -539,6 +546,9 @@ body {
     opacity: 0;
     transform: translate(-50%, -50%) scale(0.25);
     transition: all 0.5s 0.2s; }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        width: 85%; } }
   .popup__left {
     width: 33.333333%;
     display: table-cell; }
@@ -550,6 +560,10 @@ body {
   .popup__img {
     display: block;
     width: 100%; }
+    @media (max-width: 37.5em) {
+      .popup__img {
+        margin: 4rem 2rem;
+        padding: 2rem 0; } }
   .popup__text {
     font-size: 1.4rem;
     margin-bottom: 4rem;
@@ -563,6 +577,12 @@ body {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto; }
+    @media (max-width: 37.5em) {
+      .popup__text {
+        font-size: 1.2rem;
+        margin-bottom: 2.5rem;
+        column-count: 1;
+        -moz-column-count: 1; } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
