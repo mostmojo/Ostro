@@ -270,7 +270,7 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+        background-image: linear-gradient(to right bottom, #b2afdf, #46437c); }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, #5d8edc, #1d3965); }
       .card__side--back-3 {
@@ -288,7 +288,7 @@ body {
     border-top-right-radius: 3px;
     border-top-left-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #b2afdf, #46437c), url(../img/nat-5.jpg); }
     .card__picture--2 {
       background-image: linear-gradient(to right bottom, #5d8edc, #1d3965), url(../img/nat-6.jpg); }
     .card__picture--3 {
@@ -308,7 +308,7 @@ body {
     -webkit-box-direction-break: clone;
     box-direction-break: clone; }
     .card__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+      background-image: linear-gradient(to right bottom, rgba(178, 175, 223, 0.85), rgba(70, 67, 124, 0.85)); }
     .card__heading-span--2 {
       background-image: linear-gradient(to right bottom, rgba(93, 142, 220, 0.85), rgba(29, 57, 101, 0.85)); }
     .card__heading-span--3 {
@@ -465,7 +465,7 @@ body {
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
     border-bottom: 3px solid #416DB5; }
   .form__input:focus:invalid {
-    border-bottom: 3px solid #ff7730; }
+    border-bottom: 3px solid #46437c; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
